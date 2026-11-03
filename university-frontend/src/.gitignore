@@ -1,0 +1,21 @@
+@"
+# Backend
+university-backend/node_modules/
+university-backend/.env
+university-backend/target/
+university-backend/build/
+
+# Frontend
+university-frontend/node_modules/
+university-frontend/.env
+university-frontend/dist/
+university-frontend/build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
